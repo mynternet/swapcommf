@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4000",
+  "proxy": "https://swapcomm.ue.r.appspot.com",
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@stripe/stripe-js": "^2.2.0",
