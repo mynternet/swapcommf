@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Updated font family */
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333;
+  line-height: 1.6;
+  padding-top: 86px; /* Adjust based on the height of your navbar */
+  margin-bottom: 40px; /* Space for the footer */
+}
+
+/* Static Navbar Styles */
+.navbar {
+  background-color: #000; /* Black background for the navbar */
+  color: #fff; /* White text color for the navbar */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000; /* Black background for the footer */
+  color: #fff; /* White text color for the footer */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Page Header Styles */
+.page-header {
+  background-color: #2f8bee; /* Changed to a blue tone */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase; /* Uppercase text */
+}
+
+/* Main Content Styles */
+.page-content {
+  max-width: 600px;
+  margin: 20px auto;
+  background: hsl(0, 0%, 6%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... other styles ... */
+
+/* Item Card Styles */
+.item-card {
+  background-color: #fff;
+  box-shadow: 0 0 5px hsl(215, 80%, 52%);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Image Styles within Item Card */
+.item-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.item-card:hover {
+  background-color: hwb(206 91% 2%);
+  box-shadow: 0 0 5px hsl(215, 80%, 52%);
+}
+
+
