@@ -3,7 +3,7 @@ env: standard
 instance_class: F1  # This can be adjusted based on your needs
 
 service: frontend
-
+#
 # Automatic scaling configuration
 automatic_scaling:
   min_idle_instances: 0  # Minimum number of idle instances
