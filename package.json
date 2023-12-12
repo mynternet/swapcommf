@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://swapcomm.ue.r.appspot.com",
+  "proxy": "https://backend-dot-swapcomm.ue.r.appspot.com",
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@stripe/stripe-js": "^2.2.0",
@@ -44,6 +44,6 @@
     ]
   },
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   }
 }
