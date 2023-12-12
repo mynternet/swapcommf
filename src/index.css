@@ -115,3 +115,44 @@ body {
 .submit-button:hover {
   background-color: #0056b3;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .page-content {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .item-card {
+    margin: 10px;
+  }
+
+  .footer {
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 60px; /* Adjust for smaller navbar */
+    padding-bottom: 40px; /* Smaller footer */
+  }
+
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-content, .item-card {
+    margin: 5px;
+  }
+
+  .footer {
+    padding: 3px 0;
+  }
+}
